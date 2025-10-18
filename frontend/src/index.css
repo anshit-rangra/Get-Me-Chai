@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Dark theme form styling */
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.form-container {
+  background-color: #1e1e1e;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #aaa;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Dark Mode Styling for Memos Table */
+body {
+  background-color: #121212;
+  font-family: 'Poppins', sans-serif;
+  color: #e0e0e0;
+}
+
+.memos-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.no-data {
+  text-align: center;
+  color: #bbb;
+  font-style: italic;
+}
+
+.memos-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1c1c1c;
+}
+
+.memos-table th,
+.memos-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+.memos-table th {
+  background-color: #2c2c2c;
+  color: #00bcd4;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.memos-table tr:hover {
+  background-color: #292929;
+  transition: background-color 0.3s ease;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #9cdcfe;
+  word-break: break-all;
+}
+
+.memos-table td {
+  color: #e0e0e0;
+}
+
+.memos-table tr:last-child td {
+  border-bottom: none;
+}
